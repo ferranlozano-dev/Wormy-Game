@@ -1,0 +1,21 @@
+SPRITES
+8100:  22, 2, 16, 30, 0     // Prin L down 1
+8101:  40, 2, 16, 30, 0     // Prin L down 2
+8102:  58, 2, 16, 30, 0     // Prin L surprised
+8103:  76, 2, 16, 30, 0     // Prin L standing/walking
+8104:  93, 2, 16, 30, 0     // Prin L walking
+8105: 111, 2, 23, 30, 0     // Prin L running/hugging
+8106: 136, 2, 23, 30, 0     // Prin R running/hugging
+8107: 161, 2, 16, 30, 0     // Prin R walking
+8108: 178, 2, 16, 30, 0     // Prin R standing/walking
+8109: 196, 2, 16, 30, 0     // Prin R surprised
+8110: 214, 2, 16, 30, 0     // Prin R down 2
+8111: 232, 2, 16, 30, 0     // Prin R down 1
+
+ANIMATIONS
+8100: 8103                  // Prin L standing
+8101: 8108                  // Prin R standing
+8102: 8100,8101             // Prin L down
+8103: 8111,8110             // Prin R down
+8104: 8103,8104             // Prin L walking
+8105: 8108x2,8107x2         // Prin R walking
